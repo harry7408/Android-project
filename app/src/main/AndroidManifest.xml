@@ -10,13 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".main_menu.ChooseLangActivity"
+            android:name=".main_menu.thirdpage.security"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.opensource"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.algorithm"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.embedded"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.game"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.mobile"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.backend"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.frontend"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.secondpage.ChooseLangActivity"
             android:exported="false" />
         <activity
             android:name=".second_page.ChooseLangActivity"
             android:exported="false" />
         <activity
-            android:name=".main_menu.MainActivity"
+            android:name=".main_menu.firstpage.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

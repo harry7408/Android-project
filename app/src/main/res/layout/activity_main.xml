@@ -25,7 +25,7 @@
             android:layout_height="240dp"
             android:layout_gravity="center_horizontal|center"
             android:layout_marginStart="90dp"
-            app:srcCompat="@drawable/main_image"/>
+            android:src="@mipmap/ic_launcher"/>
     </LinearLayout>
     <Button
         android:layout_height="wrap_content"

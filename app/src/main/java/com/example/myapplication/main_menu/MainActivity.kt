@@ -1,9 +1,10 @@
-package com.example.myapplication
+package com.example.myapplication.main_menu
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.myapplication.R
 
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         button1=findViewById<Button>(R.id.main_button1)
         button1.setOnClickListener {
-            val intent= Intent(this@MainActivity,ChooseLang::class.java)
+            val intent= Intent(this@MainActivity, ChooseLangActivity::class.java)
             startActivity(intent)
         }
     }

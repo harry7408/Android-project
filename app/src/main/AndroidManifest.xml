@@ -10,25 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".main_menu.thirdpage.security"
+            android:name=".main_menu.thirdpage.Security"
             android:exported="false" />
         <activity
-            android:name=".main_menu.thirdpage.opensource"
+            android:name=".main_menu.thirdpage.Opensource"
             android:exported="false" />
         <activity
-            android:name=".main_menu.thirdpage.algorithm"
+            android:name=".main_menu.thirdpage.Algorithm"
             android:exported="false" />
         <activity
-            android:name=".main_menu.thirdpage.embedded"
+            android:name=".main_menu.thirdpage.Embedded"
             android:exported="false" />
         <activity
-            android:name=".main_menu.thirdpage.game"
+            android:name=".main_menu.thirdpage.Game"
             android:exported="false" />
         <activity
-            android:name=".main_menu.thirdpage.mobile"
+            android:name=".main_menu.thirdpage.Mobile"
             android:exported="false" />
         <activity
-            android:name=".main_menu.thirdpage.backend"
+            android:name=".main_menu.thirdpage.Backend"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu.thirdpage.Frontend"
             android:exported="false" />
         <activity
             android:name=".main_menu.thirdpage.frontend"

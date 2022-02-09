@@ -13,14 +13,14 @@ class ChooseLangActivity : AppCompatActivity() {
 
    private lateinit var binding : ActivityChooseLangBinding
     private val datalist = arrayListOf<Data>(
-        Data(R.drawable.ic_launcher_background, "프론트엔드","HMTL, CSS, Javascript"),
-        Data(R.drawable.ic_launcher_background, "백엔드/서버", " C++, Java, Python"),
-        Data(R.drawable.ic_launcher_background, "모바일","Kotlin, Java"),
-        Data(R.drawable.ic_launcher_background,"게임","C++, C#"),
-        Data(R.drawable.ic_launcher_background,"임베디드","C"),
-        Data(R.drawable.ic_launcher_background,"알고리즘","C++, Java, Python"),
-        Data(R.drawable.ic_launcher_background,"오픈소스","Git"),
-        Data(R.drawable.ic_launcher_background,"보안","C, SQL")
+        Data(R.drawable.front_end, "프론트엔드","HMTL, CSS, Javascript"),
+        Data(R.drawable.back_end, "백엔드/서버", " C++, Java, Python"),
+        Data(R.drawable.mobile, "모바일","Kotlin, Java"),
+        Data(R.drawable.game,"게임","C++, C#"),
+        Data(R.drawable.embedded,"임베디드","C"),
+        Data(R.drawable.algorithm,"알고리즘","C++, Java, Python"),
+        Data(R.drawable.opensource,"오픈소스","Git"),
+        Data(R.drawable.security,"보안","C, SQL")
     )
     val listAdapter = MyAdapter(datalist)
     override fun onCreate(savedInstanceState: Bundle?) {

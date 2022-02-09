@@ -70,8 +70,8 @@ class DatabaseHelper7 private constructor(context: Context) : SQLiteOpenHelper(c
                 val stringBuffer=StringBuffer()
                 while (cursor.moveToNext()) {
                     stringBuffer.append("  ")
-                    stringBuffer.append(cursor.getInt(0).toString()+"          ")
-                    stringBuffer.append(cursor.getString(1)+"           ")
+                    stringBuffer.append(cursor.getInt(0).toString()+"\r\n")
+                    stringBuffer.append(cursor.getString(1)+"\r\n")
                     stringBuffer.append(cursor.getString(2)+"\r\n")
                 }
                 result=stringBuffer.toString()

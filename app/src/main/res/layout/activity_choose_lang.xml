@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main_menu.secondpage.ChooseLangActivity"
+    android:background="#FFE0B2"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="10dp"
+    tools:context=".main_menu.secondpage.ChooseLangActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recycleView"
-        />
+        android:background="#FFF9C4" />
 </LinearLayout>
